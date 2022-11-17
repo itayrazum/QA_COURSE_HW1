@@ -1,4 +1,4 @@
-package main.java.sise.sqe;
+package sise.sqe;
 
 import java.util.ArrayList;
 import java.util.List;

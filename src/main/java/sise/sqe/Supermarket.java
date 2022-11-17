@@ -1,4 +1,4 @@
-package main.java.sise.sqe;
+package sise.sqe;
 
 public interface Supermarket {
     /**
