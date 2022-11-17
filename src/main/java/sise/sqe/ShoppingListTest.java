@@ -9,10 +9,10 @@ import org.mockito.Mockito;
 import static org.junit.jupiter.api.Assertions.*;
 
 class ShoppingListTest {
-    private ShoppingList shoppingList;
+    private static ShoppingList shoppingList;
 
     @BeforeAll
-    public void Init()
+    public static void Init()
     {
         shoppingList = Mockito.mock(ShoppingList.class);
     }
@@ -20,6 +20,8 @@ class ShoppingListTest {
     @Test
     public void addProduct_succses() {
         Product product1 = new Product("1", "Bamba1", 1);
+        double Bambaprice = shoppingList.getMarketPrice();
+
         shoppingList.addProduct(product1);
     }
 
