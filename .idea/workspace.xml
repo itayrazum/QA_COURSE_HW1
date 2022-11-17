@@ -103,13 +103,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -118,7 +118,22 @@
       <recent name="sise.sqe" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ShoppingListTestYuval">
+  <component name="RunManager" selected="JUnit.ShoppingListTestItay">
+    <configuration name="ShoppingListTestItay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShoppingList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sise.sqe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sise.sqe" />
+      <option name="MAIN_CLASS_NAME" value="sise.sqe.ShoppingListTestItay" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShoppingListTestYuval" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShoppingList" />
       <extension name="coverage">
@@ -166,22 +181,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingListTestYuval.priceWithDelivery_Test_Success_deliveryfee_5_Marketprice_0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShoppingList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sise.sqe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sise.sqe" />
-      <option name="MAIN_CLASS_NAME" value="sise.sqe.ShoppingListTestYuval" />
-      <option name="METHOD_NAME" value="priceWithDelivery_Test_Success_deliveryfee_5_Marketprice_0" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ShoppingListTestYuval.priceWithDelivery_Test_Success_deliveryfee_5_Marketprice_5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShoppingList" />
       <extension name="coverage">
@@ -200,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShoppingListTestItay" />
         <item itemvalue="JUnit.ShoppingListTestYuval" />
         <item itemvalue="JUnit.ShoppingListTestYuval.getDiscoun_Test_Success_750" />
         <item itemvalue="JUnit.ShoppingListTestYuval.getDiscoun_Test_Success_Above_1000" />
         <item itemvalue="JUnit.ShoppingListTestYuval.priceWithDelivery_Test_Success_deliveryfee_5_Marketprice_5" />
-        <item itemvalue="JUnit.ShoppingListTestYuval.priceWithDelivery_Test_Success_deliveryfee_5_Marketprice_0" />
       </list>
     </recent_temporary>
   </component>
