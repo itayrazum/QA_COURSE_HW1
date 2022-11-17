@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28018c13-2d30-430a-bbb5-9b849846e342" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sise/sqe/ShoppingListTestYuval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sise/sqe/ShoppingListTestYuval.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sise/sqe/ShoppingListTestYuval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sise/sqe/ShoppingListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sise/sqe/ShoppingListTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,23 +118,8 @@
       <recent name="sise.sqe" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ShoppingListTestYuval.getDiscoun_Test_Success">
-    <configuration name="ShoppingListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShoppingList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sise.sqe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sise.sqe" />
-      <option name="MAIN_CLASS_NAME" value="sise.sqe.ShoppingListTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShoppingListTestYuval.getDiscoun_Test_Success" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ShoppingListTestYuval">
+    <configuration name="ShoppingListTestYuval" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShoppingList" />
       <extension name="coverage">
         <pattern>
@@ -142,13 +129,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="sise.sqe" />
       <option name="MAIN_CLASS_NAME" value="sise.sqe.ShoppingListTestYuval" />
-      <option name="METHOD_NAME" value="getDiscoun_Test_Success" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingListTest.addProduct_succses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShoppingListTestYuval.getDiscoun_Test_Success_750" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShoppingList" />
       <extension name="coverage">
         <pattern>
@@ -157,14 +143,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sise.sqe" />
-      <option name="MAIN_CLASS_NAME" value="sise.sqe.ShoppingListTest" />
-      <option name="METHOD_NAME" value="addProduct_succses" />
+      <option name="MAIN_CLASS_NAME" value="sise.sqe.ShoppingListTestYuval" />
+      <option name="METHOD_NAME" value="getDiscoun_Test_Success_750" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingListTest.getDiscounTestFails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShoppingListTestYuval.getDiscoun_Test_Success_Above_1000" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShoppingList" />
       <extension name="coverage">
         <pattern>
@@ -173,14 +159,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sise.sqe" />
-      <option name="MAIN_CLASS_NAME" value="sise.sqe.ShoppingListTest" />
-      <option name="METHOD_NAME" value="getDiscounTestFails" />
+      <option name="MAIN_CLASS_NAME" value="sise.sqe.ShoppingListTestYuval" />
+      <option name="METHOD_NAME" value="getDiscoun_Test_Success_Above_1000" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingListTest.getDiscounTestSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShoppingListTestYuval.priceWithDelivery_Test_Success_deliveryfee_5_Marketprice_0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShoppingList" />
       <extension name="coverage">
         <pattern>
@@ -189,8 +175,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sise.sqe" />
-      <option name="MAIN_CLASS_NAME" value="sise.sqe.ShoppingListTest" />
-      <option name="METHOD_NAME" value="getDiscounTestSuccess" />
+      <option name="MAIN_CLASS_NAME" value="sise.sqe.ShoppingListTestYuval" />
+      <option name="METHOD_NAME" value="priceWithDelivery_Test_Success_deliveryfee_5_Marketprice_0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingListTestYuval.priceWithDelivery_Test_Success_deliveryfee_5_Marketprice_5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShoppingList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sise.sqe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sise.sqe" />
+      <option name="MAIN_CLASS_NAME" value="sise.sqe.ShoppingListTestYuval" />
+      <option name="METHOD_NAME" value="priceWithDelivery_Test_Success_deliveryfee_5_Marketprice_5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -198,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ShoppingListTestYuval.getDiscoun_Test_Success" />
-        <item itemvalue="JUnit.ShoppingListTest.getDiscounTestSuccess" />
-        <item itemvalue="JUnit.ShoppingListTest.getDiscounTestFails" />
-        <item itemvalue="JUnit.ShoppingListTest.addProduct_succses" />
-        <item itemvalue="JUnit.ShoppingListTest" />
+        <item itemvalue="JUnit.ShoppingListTestYuval" />
+        <item itemvalue="JUnit.ShoppingListTestYuval.getDiscoun_Test_Success_750" />
+        <item itemvalue="JUnit.ShoppingListTestYuval.getDiscoun_Test_Success_Above_1000" />
+        <item itemvalue="JUnit.ShoppingListTestYuval.priceWithDelivery_Test_Success_deliveryfee_5_Marketprice_5" />
+        <item itemvalue="JUnit.ShoppingListTestYuval.priceWithDelivery_Test_Success_deliveryfee_5_Marketprice_0" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +277,13 @@
       <option name="presentableId" value="LOCAL‎00009" />
       <updated>1668690243221</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL‎00010" summary="first commit">
+      <created>1668690844433</created>
+      <option name="number" value="LOCAL‎00010" />
+      <option name="presentableId" value="LOCAL‎00010" />
+      <updated>1668690844433</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
