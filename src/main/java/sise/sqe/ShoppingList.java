@@ -1,14 +1,14 @@
-package sise.sqe;
+package main.java.sise.sqe;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class ShoppingList {
-  private final Supermarket supermarket;
+  private final sise.sqe.Supermarket supermarket;
 
   private final List<Product> products = new ArrayList<>();
 
-  public ShoppingList(Supermarket superMarket) {
+  public ShoppingList(sise.sqe.Supermarket superMarket) {
     supermarket = superMarket;
   }
 

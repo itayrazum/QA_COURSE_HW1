@@ -1,4 +1,4 @@
-package sise.sqe;
+package main.java.sise.sqe;
 
 public class Product {
     public final String productId;
