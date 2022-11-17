@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28018c13-2d30-430a-bbb5-9b849846e342" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sise/sqe/ShoppingListTestItay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_11_2022_12_38__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_11_2022_12_38__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShoppingList.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingList.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sise/sqe/ShoppingListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sise/sqe/ShoppingListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sise/sqe/ShoppingListTestItay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sise/sqe/ShoppingListTestItay.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +276,14 @@
       <option name="presentableId" value="LOCAL‎00007" />
       <updated>1668682791233</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="first commit">
+      <created>1668691724478</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668691724478</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -302,12 +306,30 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/sise/sqe/ShoppingListTestItay.java</url>
-          <line>39</line>
+          <line>38</line>
           <properties class="sise.sqe.ShoppingListTestItay" method="getMarketPrice_5Products_NoDiscount_succses">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/sise/sqe/ShoppingListTestItay.java</url>
+          <line>58</line>
+          <properties class="sise.sqe.ShoppingListTestItay" method="getMarketPrice_5Products_Discount_succses">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/sise/sqe/ShoppingListTestItay.java</url>
+          <line>107</line>
+          <properties class="sise.sqe.ShoppingListTestItay" method="changeQuantity_Quanity0_Product_Remove_Succses">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
