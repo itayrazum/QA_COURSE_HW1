@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28018c13-2d30-430a-bbb5-9b849846e342" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sise/sqe/ShoppingListTestItay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_11_2022_12_38__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_17_11_2022_12_38__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sise/sqe/ShoppingListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sise/sqe/ShoppingListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShoppingList.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ShoppingList.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sise/sqe/ShoppingListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sise/sqe/ShoppingListTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,8 +105,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -112,18 +119,8 @@
       <recent name="sise.sqe" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ShoppingListTest.getDiscounTestSuccess">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="QA_COURSE_HW1" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShoppingListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ShoppingListTestItay">
+    <configuration name="ShoppingListTestItay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShoppingList" />
       <extension name="coverage">
         <pattern>
@@ -132,13 +129,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sise.sqe" />
-      <option name="MAIN_CLASS_NAME" value="sise.sqe.ShoppingListTest" />
+      <option name="MAIN_CLASS_NAME" value="sise.sqe.ShoppingListTestItay" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingListTest.addProduct_succses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShoppingListTestItay.getMarketPrice_5Products_NoDiscount_succses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShoppingList" />
       <extension name="coverage">
         <pattern>
@@ -147,14 +144,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sise.sqe" />
-      <option name="MAIN_CLASS_NAME" value="sise.sqe.ShoppingListTest" />
-      <option name="METHOD_NAME" value="addProduct_succses" />
+      <option name="MAIN_CLASS_NAME" value="sise.sqe.ShoppingListTestItay" />
+      <option name="METHOD_NAME" value="getMarketPrice_5Products_NoDiscount_succses" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingListTest.getDiscounTestFails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShoppingListTestItay.getMarketPrice_NoProducts_succses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShoppingList" />
       <extension name="coverage">
         <pattern>
@@ -163,8 +160,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="sise.sqe" />
-      <option name="MAIN_CLASS_NAME" value="sise.sqe.ShoppingListTest" />
-      <option name="METHOD_NAME" value="getDiscounTestFails" />
+      <option name="MAIN_CLASS_NAME" value="sise.sqe.ShoppingListTestItay" />
+      <option name="METHOD_NAME" value="getMarketPrice_NoProducts_succses" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingListTestItay.getMarketPrice_succses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShoppingList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sise.sqe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sise.sqe" />
+      <option name="MAIN_CLASS_NAME" value="sise.sqe.ShoppingListTestItay" />
+      <option name="METHOD_NAME" value="getMarketPrice_succses" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -186,12 +199,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ShoppingList" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ShoppingList" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShoppingListTestItay" />
+        <item itemvalue="JUnit.ShoppingListTestItay.getMarketPrice_5Products_NoDiscount_succses" />
+        <item itemvalue="JUnit.ShoppingListTestItay.getMarketPrice_succses" />
+        <item itemvalue="JUnit.ShoppingListTestItay.getMarketPrice_NoProducts_succses" />
         <item itemvalue="JUnit.ShoppingListTest.getDiscounTestSuccess" />
-        <item itemvalue="JUnit.ShoppingListTest.getDiscounTestFails" />
-        <item itemvalue="JUnit.ShoppingListTest.addProduct_succses" />
-        <item itemvalue="JUnit.ShoppingListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -269,5 +296,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/sise/sqe/ShoppingListTestItay.java</url>
+          <line>39</line>
+          <properties class="sise.sqe.ShoppingListTestItay" method="getMarketPrice_5Products_NoDiscount_succses">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
