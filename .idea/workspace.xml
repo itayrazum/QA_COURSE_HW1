@@ -132,6 +132,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShoppingListTestItay.AddProduct_succses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShoppingList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sise.sqe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sise.sqe" />
+      <option name="MAIN_CLASS_NAME" value="sise.sqe.ShoppingListTestItay" />
+      <option name="METHOD_NAME" value="AddProduct_succses" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShoppingListTestItay.getMarketPrice_5Products_NoDiscount_succses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShoppingList" />
       <extension name="coverage">
@@ -180,22 +196,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingListTest.getDiscounTestSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShoppingList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sise.sqe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sise.sqe" />
-      <option name="MAIN_CLASS_NAME" value="sise.sqe.ShoppingListTest" />
-      <option name="METHOD_NAME" value="getDiscounTestSuccess" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="ShoppingList" />
       <method v="2">
@@ -212,10 +212,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ShoppingListTestItay" />
+        <item itemvalue="JUnit.ShoppingListTestItay.AddProduct_succses" />
         <item itemvalue="JUnit.ShoppingListTestItay.getMarketPrice_5Products_NoDiscount_succses" />
         <item itemvalue="JUnit.ShoppingListTestItay.getMarketPrice_succses" />
         <item itemvalue="JUnit.ShoppingListTestItay.getMarketPrice_NoProducts_succses" />
-        <item itemvalue="JUnit.ShoppingListTest.getDiscounTestSuccess" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668691724478</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="first commit">
+      <created>1668694003750</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668694003750</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -306,7 +313,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/sise/sqe/ShoppingListTestItay.java</url>
-          <line>38</line>
+          <line>59</line>
           <properties class="sise.sqe.ShoppingListTestItay" method="getMarketPrice_5Products_NoDiscount_succses">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -315,21 +322,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/sise/sqe/ShoppingListTestItay.java</url>
-          <line>58</line>
+          <line>86</line>
           <properties class="sise.sqe.ShoppingListTestItay" method="getMarketPrice_5Products_Discount_succses">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/sise/sqe/ShoppingListTestItay.java</url>
-          <line>107</line>
-          <properties class="sise.sqe.ShoppingListTestItay" method="changeQuantity_Quanity0_Product_Remove_Succses">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
+          <line>32</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
