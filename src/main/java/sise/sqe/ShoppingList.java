@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ShoppingList {
-  private final sise.sqe.Supermarket supermarket;
+  private final Supermarket supermarket;
 
   private final List<Product> products = new ArrayList<>();
 
-  public ShoppingList(sise.sqe.Supermarket superMarket) {
+  public ShoppingList(Supermarket superMarket) {
     supermarket = superMarket;
   }
 
