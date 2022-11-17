@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28018c13-2d30-430a-bbb5-9b849846e342" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sise/sqe/ShoppingListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sise/sqe/ShoppingListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,8 +104,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -112,7 +112,7 @@
       <recent name="sise.sqe" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ShoppingListTest.getDiscounTestSuccess">
+  <component name="RunManager" selected="JUnit.ShoppingListTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="QA_COURSE_HW1" />
@@ -154,44 +154,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingListTest.getDiscounTestFails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShoppingList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sise.sqe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sise.sqe" />
-      <option name="MAIN_CLASS_NAME" value="sise.sqe.ShoppingListTest" />
-      <option name="METHOD_NAME" value="getDiscounTestFails" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShoppingListTest.getDiscounTestSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShoppingList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sise.sqe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sise.sqe" />
-      <option name="MAIN_CLASS_NAME" value="sise.sqe.ShoppingListTest" />
-      <option name="METHOD_NAME" value="getDiscounTestSuccess" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ShoppingListTest.getDiscounTestSuccess" />
-        <item itemvalue="JUnit.ShoppingListTest.getDiscounTestFails" />
-        <item itemvalue="JUnit.ShoppingListTest.addProduct_succses" />
         <item itemvalue="JUnit.ShoppingListTest" />
+        <item itemvalue="JUnit.ShoppingListTest.addProduct_succses" />
       </list>
     </recent_temporary>
   </component>
@@ -246,13 +212,7 @@
       <option name="project" value="LOCAL" />
       <updated>1668680087523</updated>
     </task>
-    <task id="LOCAL‎00007" summary="first commit">
-      <created>1668682791233</created>
-      <option name="number" value="LOCAL‎00007" />
-      <option name="presentableId" value="LOCAL‎00007" />
-      <updated>1668682791233</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

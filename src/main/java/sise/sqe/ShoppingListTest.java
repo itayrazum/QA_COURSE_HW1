@@ -5,70 +5,58 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 
+import static org.mockito.Mockito.when;
 
 import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.when;
 
 class ShoppingListTest {
     private static ShoppingList shoppingList;
-    private static Supermarket mysuper;
+    private static Supermarket supermarket;
 
     @BeforeAll
     public static void Init()
     {
-        mysuper = Mockito.mock(Supermarket.class);
-        Supermarket mysuperspy = Mockito.spy(mysuper);
-
-        shoppingList = Mockito.mock(ShoppingList.class);
-        shoppingList = new ShoppingList(mysuper);
+        supermarket = Mockito.mock(Supermarket.class);
+        shoppingList = new ShoppingList(supermarket);
     }
 
     @Test
-    public void addProduct_succses() {
-
+    public void getMarketPrice_succses() {
         Product product1 = new Product("1", "Bamba1", 1);
-        double Bambaprice = 10.0;
-        when (mysuper.getPrice("1")).thenReturn(10.0);
-        //Mockito.stub(mysuper.getPrice("1")).toReturn(10.0);
-        assertEquals(Bambaprice,mysuper.getPrice("1"));
-
-
-
         shoppingList.addProduct(product1);
+        when((supermarket.getPrice("1"))).thenReturn(10.0);
+        assertEquals(10,shoppingList.getMarketPrice());
+    }
+
+    @Test
+    public void getMarketPrice_NoProducts_succses() {
+        int result = 0;
+        assertEquals(result,shoppingList.getMarketPrice(),"Getting correct price of empty list failed");
     }
 
 
     @Test
-
-    public void getDiscoun_Test_Fails_With_IllegalArgumentException()
-    {
-        Exception exception = assertThrows(IllegalArgumentException.class, () -> {
-            shoppingList.getDiscount(-0.1);
-        });
-
-        String expectedMessage = "Price cannot be negative";
-        String actualMessage = exception.getMessage();
-
-        assertTrue(actualMessage.contains(expectedMessage));
-    }
-
-
-
-    @Test
-    public void getDiscoun_Test_Success()
-    {
-
-        assertEquals(0.85,shoppingList.getDiscount(1000.1));
-        assertEquals(0.9,shoppingList.getDiscount(750.1));
-        assertEquals(0.9,shoppingList.getDiscount(1000));
-        assertEquals(0.95,shoppingList.getDiscount(500.01));
-        assertEquals(0.95,shoppingList.getDiscount(750));
-
-
-
+    public void getMarketPrice_5Products_NoDiscount_succses(){
+        Product prod1 = new Product("1","1",1);
+        Product prod2 = new Product("2","2",1);
+        Product prod3 = new Product("3","3",1);
+        Product prod4 = new Product("4","4",1);
+        Product prod5 = new Product("5","5",1);
+        shoppingList.addProduct(prod1);
+        shoppingList.addProduct(prod2);
+        shoppingList.addProduct(prod3);
+        shoppingList.addProduct(prod4);
+        shoppingList.addProduct(prod5);
+        when((supermarket.getPrice("1"))).thenReturn(1.0);
+        when((supermarket.getPrice("2"))).thenReturn(1.0);
+        when((supermarket.getPrice("3"))).thenReturn(1.0);
+        when((supermarket.getPrice("4"))).thenReturn(1.0);
+        when((supermarket.getPrice("5"))).thenReturn(1.0);
+        assertEquals(5,shoppingList.getMarketPrice());
 
 
     }
+
 
 
 
