@@ -38,37 +38,7 @@ class ShoppingListTest {
     }
 
 
-    @Test
 
-    public void getDiscoun_Test_Fails_With_IllegalArgumentException()
-    {
-        Exception exception = assertThrows(IllegalArgumentException.class, () -> {
-            shoppingList.getDiscount(-0.1);
-        });
-
-        String expectedMessage = "Price cannot be negative";
-        String actualMessage = exception.getMessage();
-
-        assertTrue(actualMessage.contains(expectedMessage));
-    }
-
-
-
-    @Test
-    public void getDiscoun_Test_Success()
-    {
-
-        assertEquals(0.85,shoppingList.getDiscount(1000.1));
-        assertEquals(0.9,shoppingList.getDiscount(750.1));
-        assertEquals(0.9,shoppingList.getDiscount(1000));
-        assertEquals(0.95,shoppingList.getDiscount(500.01));
-        assertEquals(0.95,shoppingList.getDiscount(750));
-
-
-
-
-
-    }
 
 
 
